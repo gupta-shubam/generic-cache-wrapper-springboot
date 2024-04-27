@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: InMemoryCache2K
+  config:
+    import: classpath:config/inmemorycache.yml,classpath:config/inmemorycache.yml

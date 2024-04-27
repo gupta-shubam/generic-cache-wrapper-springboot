@@ -1,0 +1,20 @@
+in-memory-cache:
+  is-preload-enabled: false
+  cache-properties:
+    suc:
+      ttl: 1
+      name: 'suc'
+      ttl-time-units: hour
+      size: 12
+      refresh-rate: 12
+      refresh-time-unit: hour
+    velocity:
+      ttl: 1
+      name: 'velocity'
+      ttl-time-units: hour
+      size: 12
+      refresh-rate: 12
+      refresh-time-unit: hour
+
+
+
