@@ -15,6 +15,7 @@ in-memory-cache:
       size: 12
       refresh-rate: 12
       refresh-time-unit: hour
+      client: cache2k # default cache2k
 
 
 

@@ -15,8 +15,11 @@ public class InMemoryCacheConfig {
     Map<InMemoryCacheTypes,InMemoryCacheProperties> cacheProperties;
 
     public enum InMemoryCacheTypes {
-        VELOCITY,
-        SUC;
+        VELOCITY, SUC;
+    }
+
+    public enum Client{
+        CACHE2K, CACHE3K, CACHE4K;
     }
 
     @Data
@@ -27,5 +30,6 @@ public class InMemoryCacheConfig {
         private long size;
         private long refreshRate;
         private String refreshTimeUnit;
+        private Client client =Client.CACHE4K;
     }
 }
