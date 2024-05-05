@@ -4,18 +4,24 @@ in-memory-cache:
     suc:
       ttl: 1
       name: 'suc'
-      ttl-time-units: hour
+      ttl-time-units: hours
       size: 12
       refresh-rate: 12
-      refresh-time-unit: hour
+      refresh-time-unit: hours
+      loader: "SUCLoader"
+      key-type: java.lang.String
+      value-type: java.lang.String
     velocity:
       ttl: 1
       name: 'velocity'
-      ttl-time-units: hour
+      ttl-time-units: hours
       size: 12
       refresh-rate: 12
-      refresh-time-unit: hour
+      refresh-time-unit: hours
       client: cache2k # default cache2k
+      loader: "VelocityLoader"
+      key-type: 'java.util.ArrayList'
+      value-type: 'java.lang.String'
 
 
 

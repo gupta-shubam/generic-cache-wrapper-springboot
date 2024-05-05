@@ -1,4 +1,6 @@
-package com.example.shubam.inmemorycache2k.inmemoryclass.inMem;
+package com.example.shubam.inmemorycache2k.inmemorycache.cachefactory;
+
+import org.cache2k.Cache;
 
 public interface InMemoryCacheClient<K,V> {
 
@@ -12,4 +14,5 @@ public interface InMemoryCacheClient<K,V> {
 
     public void flushCache();
 
+    Cache getStats();
 }

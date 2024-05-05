@@ -1,6 +1,5 @@
-package com.example.shubam.inmemorycache2k.inmemoryclass.inMem;
+package com.example.shubam.inmemorycache2k.inmemorycache.cachefactory;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 
